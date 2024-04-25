@@ -10,9 +10,9 @@ export default function Home() {
   return (
     <main>
       <Banner />
+      <Business />
       <People />
       <Features />
-      <Business />
       <Payment />
       <Pricing />
     </main>

@@ -35,10 +35,16 @@ const links: links[] = [
         link: 'Services',
     },
     {
-        link: 'Pricing',
+        link: 'Premium',
     },
     {
         link: 'Features',
+    },
+    {
+        link: 'Support',
+    },
+    {
+        link: 'Careers',
     },
 
 ]

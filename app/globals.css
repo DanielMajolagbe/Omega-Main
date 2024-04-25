@@ -20,14 +20,13 @@ html:not([data-scroll="0"]) .navbar {
     transition: 0.4s linear;
     padding: 0px !important;
     z-index: 3;
+    background-color: white;
 }
 
 html:not([data-scroll="0"]) .ttty {
   backdrop-filter: blur(70px);
+  
 }
-
-
-
 
 
 .w-270px {
@@ -62,7 +61,7 @@ html:not([data-scroll="0"]) .ttty {
 }
 
 .pricing-bg {
-    background: linear-gradient(180deg, #e8e9f7 0%, rgba(212, 242, 255, 0) 100%);
+    background: linear-gradient(180deg, #fafaff 0%, rgba(212, 242, 255, 0) 100%);
 }
 
 .bxshd {
@@ -142,7 +141,7 @@ html:not([data-scroll="0"]) .ttty {
     font-size: 1rem;
     font-weight: bold;
     color: #000000;
-    background-color: #ffffff;
+    background-color: transparent;
     border: none;
     border-radius: 11px;
     cursor: pointer;
@@ -227,6 +226,10 @@ html:not([data-scroll="0"]) .ttty {
   }
 
 
+  .Slidertext{
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+  }
 
 
 
@@ -347,15 +350,15 @@ strong{
   }
 
   .slider:hover .slider-content {
-    animation-play-state: paused; /* Pause animation on hover */
+ 
     cursor:pointer;
   }
 
   .slider-item {
     flex: 0 0 auto;
-    width: 300px;
-    height: 600%;
-    border: 0.5px solid rgba(148, 140, 236, 0.911);
+    width: 400px;
+    height: 650%;
+    border: 0.1px solid rgba(206, 206, 206, 0.911);
     box-shadow: 0 3px 6px rgba(100, 100, 100, 0.1);
     padding:  0px;
     margin-right: 10px; 
@@ -365,23 +368,23 @@ strong{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 8px;
     font-size: 22px;
-    background-color:rgb(250, 250, 250);
+    background-color:transparent;
+    backdrop-filter: blur(26vh);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
   .slider-item img {
     width: 100%;
-    height: 100%;
-    object-fit:fill;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 0px;
+    height: 180%;
+    object-fit:scale-down;
+   border-top-right-radius: 10px;
+   border-top-left-radius: 10px;
   }
 
   @keyframes slide {
     0% { transform: translateX(90); }
-    100% { transform: translateX(-200%); }
+    100% { transform: translateX(-140%); }
   }
 
 
