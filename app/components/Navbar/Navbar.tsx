@@ -37,7 +37,7 @@ const Navbar = () => {
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="image"
-                                        src={'/assets/banner/Group(1).svg'}
+                                        src={'/assets/banner/icon.png'}
                                         alt="paidin-logo"
                                     />
                                     <p><b>Omega</b></p>
@@ -59,9 +59,28 @@ const Navbar = () => {
                                                             {item.name}
                                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 ml-1"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" strokeWidth="0.5"/></svg>
                                                         </Link>
-                                                        <div className="absolute left-0 mt-62 w-48 bg-white border border-white-200 rounded-md shadow-lg opacity-0 group-hover:opacity-100 z-10">
-                                                           dfsfasdfsD
+                                                        <div className="absolute left-0 mt-62 w-96 bg-white border-white rounded-2xl shadow-lg opacity-0 group-hover:opacity-100 z-10 p-6 flex justify-between">
+                                                            <div className="mr-6">
+                                                                <h5>Freelancers</h5>
+                                                                <br />
+                                                                <h6>Developers</h6>
+                                                                <br />
+                                                                <h6>Project Managers</h6>
+                                                                <br />
+                                                                <h6>Designers</h6>
+                                                                <br />
+                                                                <h6>Agencies</h6>
+                                                                <br />
+                                                            </div>
+                                                            <div>
+                                                            <div className='lol'>Agencies</div>
+                                                                <br />
+                                                                <h6>dfsfasdfsD</h6>
+                                                                
+                                                            </div>
                                                         </div>
+
+
                                                     </div>
                                                 ) : (
                                                     <Link

@@ -38,7 +38,7 @@ const Features = () => {
                             <h3 className="text-2xl font-bold text-midnightblue mt-5">{item.heading}</h3>
                             <h4 className='text-lg font-normal text-black opacity-60 my-2'>{item.paragraph2}</h4>
                            <h4 className='text-lg font-normal text-black opacity-100 my-2'>{item.paragraph}</h4>
-                           <h6>Less than 2h ago</h6>
+                           <div className="time">Less than 2h ago</div>
                            <p className="star">✯✯✯✯✯</p> <br />
                             <button className="gumroad-buttonx text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black">
 View Details
