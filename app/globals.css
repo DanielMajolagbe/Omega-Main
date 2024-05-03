@@ -337,7 +337,7 @@ strong{
 
   .slider {
     
-    width: 1800%;
+    width: 100vw;
     height: 300px; /* Adjust height as needed */
     position: relative;
     
