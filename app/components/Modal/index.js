@@ -57,7 +57,7 @@ import Banner from '../Banner'
                                                     Join The Waitlist
                                                 </h2>
                                             </div>
-                                            <form className="mt-8 space-y-6" action="#" method="POST">
+                                            <form className="mt-8 space-y-6" action="https://docs.google.com/forms/d/e/1FAIpQLScvhxZEJeWIaFXAo6Vs0duVViHWLOlSE5Wm5pliWR1WsEt0kw/formResponse" >
                                                 <input type="hidden" name="remember" defaultValue="true" />
                                                 <div className="-space-y-px rounded-md shadow-sm">
                                                     <div>
@@ -66,7 +66,7 @@ import Banner from '../Banner'
                                                         </label>
                                                         <input
                                                             id="email-address"
-                                                            name="email"
+                                                            name="entry.1655658305"
                                                             type="email"
                                                             autoComplete="email"
                                                             required
