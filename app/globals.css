@@ -13,7 +13,7 @@ html:not([data-scroll="0"]) .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: transparent !important;
+    background-color: white !important;
     backdrop-filter: blur(26vh);
     opacity: 1.9;
     box-shadow: 0 13px 20px rgba(223, 223, 223, 0.12);
@@ -25,7 +25,7 @@ html:not([data-scroll="0"]) .navbar {
 
 html:not([data-scroll="0"]) .ttty {
   backdrop-filter: blur(70px);
-  
+  border-bottom: 1px solid black;
 }
 
 
