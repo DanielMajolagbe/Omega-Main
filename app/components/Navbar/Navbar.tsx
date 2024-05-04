@@ -37,10 +37,10 @@ const Navbar = () => {
                                 <div className="flex flex-shrink-0 items-center">
                                     <img
                                         className="image"
-                                        src={'/assets/banner/icon.png'}
+                                        src={'/assets/banner/important/favicon.svg'}
                                         alt="paidin-logo"
                                     />
-                                    <p><b>Omega</b></p>
+                                    <p>Omega</p>
                                 </div>
                                 {/* LINKS */}
                                 <div className="hidden lg:block ml-20">
@@ -75,7 +75,7 @@ const Navbar = () => {
                                                             <div>
                                                             <div className='lol'>Agencies</div>
                                                                 <br />
-                                                                <h6>dfsfasdfsD</h6>
+                                                                <h6>Smartsave Tech</h6>
                                                                 
                                                             </div>
                                                         </div>

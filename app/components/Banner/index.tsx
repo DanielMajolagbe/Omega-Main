@@ -23,7 +23,7 @@ const Banner = () => {
         <div className='flex w-full items-center justify-center text-center h-[65vh]'>
             <div className='flex items-center flex-col text-center gap-y-8'>
             <h1 className='text-6xl font-bold md:font-extrabold lg:font-black'>Empowering <strong>Freelancers</strong> & <br /> Redefining Talent Advertising</h1>
-            <p className='text-base'><b>/əʊˈmɛɡə/ :</b> A place where diverse creative minds can showcase talent and help employers and Pre-Seed stage founders realize their dreams.</p>
+            <p className='text-base'> A place where diverse creative minds can showcase talent and help employers and Pre-Seed stage founders realize their dreams.</p>
             <div className="flex justify-center">
                 
       <button onClick={openModal} className="gumroad-button text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black mr-4">
