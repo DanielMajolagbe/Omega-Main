@@ -6,6 +6,8 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
+import Image from 'next/image';
+
 
 interface NavigationItem {
     name: string;
@@ -35,7 +37,7 @@ const Navbar = () => {
                             <div className="flex flex-1 items-center sm:items-stretch sm:justify-start">
                                 {/* LOGO */}
                                 <div className="flex flex-shrink-0 items-center">
-                                    <img
+                                    <Image
                                         className="image"
                                         src={'/assets/banner/important/favicon.svg'}
                                         alt="paidin-logo"
