@@ -41,7 +41,7 @@ const Business = () => {
       </div>
       <div className="slider-item">
         <Image src="/assets/banner/ololade.png" alt="Image 2" width={50} height={50} />
-        <div className="text">Ololade Bello <p className='Slidertext'>Web Developer & Product Designer</p></div>
+        <div className="text">Bello Ololade <p className='Slidertext'>Web Developer & Product Designer</p></div>
       </div>
       <div className="slider-item">
         <Image src="/assets/banner/Abdulazeez.png" alt="Image 2" width={50} height={50} />
