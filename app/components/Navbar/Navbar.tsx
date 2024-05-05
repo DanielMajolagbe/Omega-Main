@@ -41,6 +41,8 @@ const Navbar = () => {
                                         className="image"
                                         src={'/assets/banner/important/favicon.svg'}
                                         alt="paidin-logo"
+                                        width={30}
+                                        height={40}
                                     />
                                     <p>Omega</p>
                                 </div>
