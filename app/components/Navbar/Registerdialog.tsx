@@ -60,6 +60,8 @@ const Register = () => {
                                                     className="mx-auto h-12 w-auto"
                                                     src="/assets/banner/Group(1).svg"
                                                     alt="Your Company"
+                                                    height={100}
+                                                    width={100}
                                                 />
                                                 <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
                                                     Join The Waitlist

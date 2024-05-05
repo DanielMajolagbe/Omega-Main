@@ -54,6 +54,8 @@ import Image from 'next/image';
                                                     className="mx-auto h-12 w-auto"
                                                     src="/assets/banner/Group(1).svg"
                                                     alt="Your Company"
+                                                    width={100}
+                                                    height={100}
                                                 />
                                                 <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-gray-900">
                                                     Join The Waitlist
