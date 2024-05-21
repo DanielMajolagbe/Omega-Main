@@ -173,7 +173,7 @@ const Pricing = () => {
                         filteredData.map((item, index) => (
                             <div className='pt-10 pb-23 pl-10 pr-10 bg-white rounded-3xl bxshd relative cursor-pointer hover:bg-black group' key={index}>
                                 <h4 className='text-4xl sm:text-3xl font-semibold mb-8 text-grey group-hover:text-white'>{item.heading}</h4>
-                             <a href='https://www.notion.com'> <button  className='text-xl font-medium text-white w-full bg-black hover:text-black group-hover:bg-cornflowerblue group-hover:border-black border-2 border-grey rounded-2xl py-4 px-12 mb-8'>{item.button}</button> </a>
+                             <a href=''> <button  className='text-xl font-medium text-white w-full bg-black hover:text-black group-hover:bg-cornflowerblue group-hover:border-black border-2 border-grey rounded-2xl py-4 px-12 mb-8'>{item.button}</button> </a>
                             
 
                             
