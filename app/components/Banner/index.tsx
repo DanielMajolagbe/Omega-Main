@@ -26,12 +26,12 @@ const Banner = () => {
             <p className='text-base'> A place where diverse creative minds can showcase talent and help employers and Pre-Seed stage founders realize their dreams.</p>
             <div className="flex justify-center">
                 
-      <button onClick={openModal} className="gumroad-button text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black mr-4">
+      <a href='localhost:3000/' className="gumroad-button text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black mr-4">
         Start for Free
         {
             isOpen ? <Modal setIsOpen={setIsOpen} isOpen={isOpen} /> : null
         }
-      </button>
+      </a>
       <a href="https://www.youtube.com/watch?v=your_video_id" target="_blank" rel="noopener noreferrer">
     <button className="gumroad-button2 text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black">
         Watch Video

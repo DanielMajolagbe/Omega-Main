@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-
 interface datatype {
     heading: string;
     paragraph: string;
@@ -40,9 +39,9 @@ const Features = () => {
                            <h4 className='text-lg font-normal text-black opacity-100 my-2'>{item.paragraph}</h4>
                            <div className="time">Less than 2h ago</div>
                            <p className="star">✯✯✯✯✯</p> <br />
-                            <button className="gumroad-buttonx text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black">
-View Details
-      </button>
+                            <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer" className="gumroad-buttonx text-white text-xl font-medium py-6 px-12 rounded-3xl transition duration-150 ease-in-out bg-black hover:text-black hover:bg-white border-black">
+                                View Details
+                            </a>
                         </div>
                     ))}
                 </div>

@@ -23,31 +23,13 @@ const names = [
         imgSrc: '/assets/pricing/starthree.svg',
     },
     {
-        heading: "Product Designer",
+        heading: "DevOps Engineer",
         button: "View Suggestions (12)",
         category: 'yearly',
         imgSrc: '/assets/pricing/starthree.svg',
     },
     {
-        heading: "Product Designer",
-        button: "View Suggestions (12)",
-        category: 'yearly',
-        imgSrc: '/assets/pricing/starthree.svg',
-    },
-    {
-        heading: "Product Designer",
-        button: "View Suggestions (12)",
-        category: 'yearly',
-        imgSrc: '/assets/pricing/starthree.svg',
-    },
-    {
-        heading: "Product Designer",
-        button: "View Suggestions (12)",
-        category: 'yearly',
-        imgSrc: '/assets/pricing/starthree.svg',
-    },
-    {
-        heading: "Product Designer",
+        heading: "Full stack Developer",
         button: "View Suggestions (12)",
         category: 'yearly',
         imgSrc: '/assets/pricing/starthree.svg',
@@ -142,7 +124,7 @@ const Pricing = () => {
     return (
         <div id="pricing" className='pricing-bg relative py-10'>
              <div className='mx-auto max-w-7xl sm:py-20 lg:px-8 my-16'>
-                <h3 className='text-center text-4xl sm:text-65xl font-black'>Available Jobs & Services</h3>
+                <h3 className='text-center text-4xl sm:text-65xl font-black'>Verified Freelancers</h3>
 
                 <p className='text-lg font-normal text-center text-black opacity-60 pt-5'></p>
 
@@ -156,13 +138,7 @@ const Pricing = () => {
                             >
                                 Freelancers
                             </h3>
-                            <h3
-                                className={`text-xl font-medium cursor-pointer ${selectedCategory === 'monthly' ? 'text-electricblue bg-white rounded-full py-2 px-4 sm:py-4 sm:px-16' : 'text-white py-2 px-4 sm:py-4 sm:px-16'
-                                    }`}
-                                onClick={() => handleCategoryChange('monthly')}
-                            >
-                                Jobs
-                            </h3>
+                         
                         </div>
                     </div>
                 </div>
@@ -173,7 +149,7 @@ const Pricing = () => {
                         filteredData.map((item, index) => (
                             <div className='pt-10 pb-23 pl-10 pr-10 bg-white rounded-3xl bxshd relative cursor-pointer hover:bg-black group' key={index}>
                                 <h4 className='text-4xl sm:text-3xl font-semibold mb-8 text-grey group-hover:text-white'>{item.heading}</h4>
-                             <a href=''> <button  className='text-xl font-medium text-white w-full bg-black hover:text-black group-hover:bg-cornflowerblue group-hover:border-black border-2 border-grey rounded-2xl py-4 px-12 mb-8'>{item.button}</button> </a>
+                             <a href='https://omegafreelance.notion.site/Omega-Freelancers-6ce4c6f0ea074d549305578ee97c1b46'> <button  className='text-xl font-medium text-white w-full bg-black hover:text-black group-hover:bg-cornflowerblue group-hover:border-black border-2 border-grey rounded-2xl py-4 px-12 mb-8'>{item.button}</button> </a>
                             
 
                             

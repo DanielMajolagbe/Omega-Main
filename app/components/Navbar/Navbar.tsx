@@ -17,8 +17,7 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
     { name: 'Featured', href: '#product', current: true },
-    { name: 'Available', href: '#Available', current: false },
-    { name: 'Coupons', href: '#Coupons', current: false },
+   
 ]
 
 function classNames(...classes: string[]) {
@@ -63,7 +62,8 @@ const Navbar = () => {
                                                             {item.name}
                                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 ml-1"><path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" strokeWidth="0.5"/></svg>
                                                         </Link>
-                                                        <div className="absolute left-0 mt-12 w-96 bg-white border-white rounded-2xl shadow-lg opacity-0 group-hover:opacity-100 z-10 p-6 flex justify-between">
+                                                        <div className="absolute left-0 mt-12 w-30 bg-white border-white rounded-2xl shadow-lg opacity-0 group-hover:opacity-100 z-10 p-6 flex justify-between">
+                                                            <a href='https://omegafreelance.notion.site/Omega-Freelancers-6ce4c6f0ea074d549305578ee97c1b46'>
                                                             <div className="mr-6">
                                                                 <h5>Freelancers</h5>
                                                                 <br />
@@ -73,15 +73,10 @@ const Navbar = () => {
                                                                 <br />
                                                                 <h6>Designers</h6>
                                                                 <br />
-                                                                <h6>Agencies</h6>
+                                                                <h6>Others</h6>
                                                                 <br />
-                                                            </div>
-                                                            <div>
-                                                            <div className='lol'>Agencies</div>
-                                                                <br />
-                                                                <h6>Smartsave Tech</h6>
-                                                                
-                                                            </div>
+                                                            </div> </a>
+                                                           
                                                         </div>
 
 
